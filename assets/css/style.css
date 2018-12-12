@@ -1,0 +1,44 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-gap: 20px;
+}
+section.grid-container img {
+  width: 100%;
+}
+
+/* .grid-container > div {
+  height: 250px;
+  background: purple;
+} */
+
+div#ds-coll-img {
+  grid-column: 3 / 7;
+  grid-row: 1 / 2;
+  padding-top: 100px;
+}
+div#ds-coll-txt {
+  grid-column: 9 / 12;
+  grid-row: 2 / 7;
+}
+div#ds-dataviz-txt {
+  grid-column: 3 / 6;
+  grid-row: 8 / 12;
+  padding-top: 15px;
+}
+div#ds-dataviz-img {
+  grid-column: 7 / 11;
+  grid-row: 7 / 11;
+  padding-top: 100px;
+  padding-left: 25px;
+}
+div#ds-explained-video{
+  grid-column: 3 / 7;
+  grid-row: 14 / 18;
+}
+div#ds-explained-text{
+  grid-column: 9 / 12;
+  grid-row: 14 / 17;
+}
